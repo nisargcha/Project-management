@@ -1,0 +1,355 @@
+.Overview-container {
+    display: flex;
+    width: 100%;
+    max-height: 100vh;
+}
+
+.Overview-container .container {
+    display: flex;
+}
+
+.first-container {
+    width: 70%;
+    min-height: 100%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+}
+
+.first-container .overview-content {
+    margin: 2rem 5.5rem;
+    /* border: 1px solid red; */
+}
+
+.first-container input {
+    display: inline;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+}
+
+.first-container input:focus {
+    border: 0.4px solid #383737;
+}
+
+.first-container input:hover {
+    border: 0.4px solid #383737;
+}
+
+.first-container h2 {
+    display: inline;
+    font-size: 1.5em;
+    padding: 5px;
+    font-weight: 700;
+    margin: 0;
+    border-radius: 4px;
+}
+
+.first-container h2:hover {
+    border: 0.4px solid #383737;
+}
+
+.rdw-editor-wrapper {
+    margin: 1.6rem 0;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 4px;
+    min-height: 200px;
+}
+
+.toolbarClassName {
+    border: 1px solid #f1f1f1;
+    border-radius: 2px;
+}
+
+.wrapperClassName {
+    width: 100%;
+}
+
+.editorClassName {
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    border-radius: 2px;
+    min-height: 200px;
+}
+
+.first-container .h2-title {
+    margin: 1.6rem 0;
+    font-size: 1.3rem;
+}
+
+.first-container .project-members {
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.project-members .add-member-btn {
+    /* border: 1px solid red; */
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}
+
+.project-members .add-member-btn:hover {
+    background-color: #e8e8e8;
+}
+
+.project-members .add-member-btn span {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    background: transparent;
+    color: #000;
+    height: 30px;
+    width: 30px;
+    border: 1px dashed #383737;
+    border-radius: 50%;
+}
+
+
+.members-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.member {
+    margin-right: 10px;
+    padding: 0.8rem 1rem;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.delete-member-btn {
+    background: none;
+    border: none;
+    /* outline: 1px solid red; */
+    color: #000;
+    font-weight: bolder;
+    background-color: #e0e0e0;
+    padding: 4px 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-member-btn:hover {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    background-color: red;
+    padding: 4px 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+.block-container {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-container .block-left-section {
+    /* border: 1px solid #ddd; */
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.block-container .block-left-section .block-logo {
+    height: 70px;
+    margin: 50px;
+}
+
+
+.block-container .block-right-section {
+    /* border: 1px solid #ddd; */
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.block-container .block-right-section .btns-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.block-container .block-right-section p {
+    font-size: 0.9rem;
+    color: #464646;
+    line-break: normal;
+}
+
+.block-container .block-right-section button {
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 1rem;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(0, 0, 25);
+}
+
+.milestone-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.milestone-container .milestone-header {
+    display: flex;
+    align-items: center;
+}
+
+.milestone-container .milestone-header .add-milestone-btn {
+    font-size: 1.8rem;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    background-color: #0cb700;
+    color: #000;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.milestone-container .milestone-header .add-milestone-btn:hover {
+    background-color: #0a9300;
+}
+.goal-list {
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+.goal-list input{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.milestone-list {
+    margin-top: 10px;
+}
+
+.milestone-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.resources-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.resource-item {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.resource-item input{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.milestone-item input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.milestone-item input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+
+.second-container {
+    width: 30%;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    padding: 20px 40px;
+    border: 1px solid #ddd;
+}
+
+.second-container .question {
+    font-size: 1.6rem;
+    color: #383737;
+}
+
+.second-container .answers {
+    margin-top: 0.7rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.second-container .answers span {
+    font-size: 0.8rem;
+    border: 0.5px solid #00000053;
+    border-radius: 5px;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+}
+
+.green:hover {
+    color: green;
+    background-color: rgba(160, 246, 160, 0.183);
+}
+
+.yellow:hover {
+    color: rgb(255, 187, 0);
+    background-color: rgba(246, 210, 160, 0.183);
+}
+
+.red:hover {
+    color: red;
+    background-color: rgba(246, 160, 160, 0.183);
+}
+
+.status-display {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #464646;
+}

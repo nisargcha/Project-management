@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+  .card{
+    height: auto;
+    width: 25%;
+    padding: 16px;
+    margin: 25px 10px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    border: rgba(198, 198, 198, 0.295) 0.2px solid;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .card-heading{
+    display:flex;
+    margin: 10px 0px;
+  }
+  .card-heading .card-icon {
+    margin-left: auto;
+  }
+  .card-heading .card-icon img{
+    height: 30px;
+    width: 30px;
+  }
+  .card-heading .card-icon img:hover{
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  .add-task-card{
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgb(171, 166, 166);
+    margin: 15px 0px;
+  }
+  .add-task-card:hover{
+    border: 1px solid rgb(133, 127, 127);
+  }
+  .task-card-name{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+  .task-card-name img{
+    height: 20px;
+    width: 20px;
+    margin: 0px 8px;
+  }
+  input{
+    background-color: #ffffffdf;
+    padding: 8px;
+    margin: 8px 0px ;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px rgb(196, 196, 196) solid;
+  }
+  input:hover{
+    background-color: #f3f3f3;
+  }
+  .badge {
+  padding: 10px;
+  margin: 10px;
+  width: auto;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  }
+  .sub-container{
+    display: flex; 
+  }
+  .sub-container{
+    text-align: center;
+  }
+  .low-priority {
+  background-color: rgb(253 253 96 / 75%);
+  }
+  
+  .medium-priority {
+  background-color: rgb(255, 202, 123);
+  }
+  
+  .high-priority {
+  background-color: rgb(187 19 184 / 41%);
+  }
+  
+  .on-track {
+    background-color: rgb(86 233 86 / 57%);
+  }
+  
+  .at-risk {
+  background-color: rgb(253 253 96 / 75%);
+  }
+  
+  .off-track {
+  background-color: rgb(255, 127, 127);
+  }
+  
+  .task {
+  margin-top: 15px;
+  }
+  
+  .selectors h4 {
+  margin-bottom: 10px;
+  }
+  
+  .selectors select {
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  }
+  .date-picker img{
+  height: 35px;
+  display: block;
+  margin: 10px;
+  }
+  .container{
+    display: flex;
+  }
+  .duration{
+    padding:3px;
+    width: auto;
+    background-color: #e9e7e79c;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  .task-options button{
+      padding: 8px;
+      color: #fff;
+      border: 0;
+      width: 100%;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 10px 0px;
+      transition: all 150ms ease-in-out;
+      border-radius: 12px;
+      box-shadow: rgba(255, 255, 255, 0.2) 0 1px 1px 0 inset, 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+      background: linear-gradient(180deg, #404146 0%, #272729 100%);
+    }
+    
+  .task-options  button:hover {
+      filter: brightness(1.1);
+    }
+    
+  .task-options  button:active {
+      transform: scale(.95);
+    }
+    
+  
+  /*Media queries*/
+  @media screen and (max-width: 426px) {
+    .container {
+      flex-direction: column;
+      margin: 10px 30px;
+    }
+    .card{
+      width: auto;
+    }
+  }
+  @media screen and (max-width: 769px) {
+    *{
+    font-size: 0.85rem;
+    }
+    .card{
+      width: auto;
+      margin: 15px 5px;
+    }
+  }
+  

@@ -1,0 +1,71 @@
+
+.modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    width: 400px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #333;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form div {
+    margin-bottom: 15px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .form input[type="text"],
+  .form select,
+  .form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .form button {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  .form button:hover {
+    background-color: darkblue;
+  }
+  

@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.user-edit {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-edit h2 {
+  margin-bottom: 20px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse; /* Swap the positions */
+}
+
+.profile-pic-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px; /* Change to margin-right */
+}
+
+.profile-pic-section img {
+  height: 150px;
+  width: 150px;
+  background: white;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 0.5px solid #cccccc;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile-pic-section input {
+  margin-top: 10px;
+  background: #dddddd;
+  height: 30px;
+}
+
+.form-section {
+  flex: 1;
+  margin-left: 20px; /* Add margin-left */
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+form input, form select {
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-color: #9b59b9;
+}
+
+form .toggles {
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+form .toggles div {
+  display: flex;
+  align-items: center;
+}
+
+form .toggles label {
+  margin-right: 10px;
+}
+
+.buttons {
+  grid-column: span 2;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.delete-button, .save-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.save-button {
+  background-color: #008000;
+  color: #fff;
+}

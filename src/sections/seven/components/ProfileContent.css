@@ -1,0 +1,343 @@
+.profile-content-container {
+    margin-top: 3.5rem;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.first-content {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* border: 1px solid red; */
+    gap: 2rem;
+}
+
+.second-content {
+    width: 70%;
+    /* border: 1px solid red; */
+}
+
+.first-content .audience-info {
+    /* border: 1px solid red; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    border-radius: 15px;
+
+    box-shadow: 0 0 20px #00000039;
+}
+
+.first-content .audience-info .count {
+    list-style: none;
+    text-align: center;
+}
+
+.first-content .audience-info .count li:first-child {
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
+.first-content .audience-info .count li:last-child {
+    color: #797979;
+}
+
+.card {
+    padding: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00000039;
+}
+
+.card p {
+    display: inline-block;
+    margin: 15px 0px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 0.5rem;
+    padding: 6px 0;
+}
+
+.card ul li .fa-icon {
+    margin-right: 8px;
+    flex-shrink: 0;
+    height: 16px;
+    width: 16px;
+}
+
+.social-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.social ul li {
+    gap: 1rem;
+    margin-top: 4px;
+}
+
+.social ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.social ul li a:hover {
+    text-decoration: underline;
+}
+
+.second-content .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    padding: 20px;
+    size-adjust: none;
+    box-shadow: 0 0 20px #00000039;
+}
+
+.second-content .form .row {
+    width: 100%;
+}
+
+.second-content .form .row .post-caption {
+    width: 100%;
+    height: 120px;
+    outline: none;
+    resize: none;
+    font-size: 1rem;
+    padding: 20px;
+    font-weight: 500;
+    border-radius: 12px;
+    border: 0.5px solid rgba(59, 59, 59, 0.438);
+}
+
+.second-content .form .row2 {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-content .form .row2 .one {
+    display: flex;
+    gap: 1rem;
+}
+
+.file-input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.file-input-button {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    border: none;
+    cursor: pointer;
+    /* font-size: 16px; */
+    border-radius: 4px;
+}
+
+.button {
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0 0 10px #00000039;
+    padding: 8px 8px;
+    font-size: 1rem;
+    color: #696969;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+.btn-icons {
+    height: 18px;
+    width: 18px;
+    margin: 0 10px;
+}
+
+.btn-icons.upload-img {
+    margin: 0 10px;
+    color: green;
+}
+
+.btn-icons.streaming {
+    margin: 0 10px;
+    color: red;
+}
+
+.two .post-btn {
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: #010023;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.two .post-btn:hover {
+    background-color: #313045;
+}
+
+@media screen and (max-width: 620px) { 
+    .profile-content-container {
+        margin-top: 8rem;
+        width: 85%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .first-content {
+        width: 100%;
+        /* border: 1px solid red; */
+        /* gap: 2rem; */
+    }
+
+    .second-content {
+        width: 100%;
+        /* flex-direction: column; */
+        /* border: 1px solid red; */
+        /* gap: 2rem; */
+    }
+
+    
+.second-content .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    border-radius: 15px;
+    padding: 20px;
+    size-adjust: none;
+    box-shadow: 0 0 20px #00000039;
+}
+
+.second-content .form .row {
+    width: 100%;
+}
+
+.second-content .form .row .post-caption {
+    width: 100%;
+    height: 120px;
+    outline: none;
+    resize: none;
+    font-size: 1rem;
+    padding: 20px;
+    font-weight: 500;
+    border-radius: 12px;
+    border: 0.5px solid rgba(59, 59, 59, 0.438);
+}
+
+.second-content .form .row2 {
+    padding: 10px 0;
+    justify-content: unset;
+    align-items: unset;
+}
+
+.second-content .form .row2 .one {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.file-input-container {
+    position: relative;
+    display: inline-block;
+}
+
+.file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.file-input-button {
+    display: inline-block;
+    /* padding: 10px 20px; */
+    border: none;
+    cursor: pointer;
+    /* font-size: 16px; */
+    border-radius: 4px;
+}
+
+.button {
+    background-color: rgb(234, 234, 234);
+    box-shadow: 0 0 10px #00000039;
+    padding: 8px 8px;
+    font-size: 1rem;
+    color: #696969;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+
+.btn-icons {
+    height: 18px;
+    width: 18px;
+    margin: 0 10px;
+}
+
+.btn-icons.upload-img {
+    margin: 0 10px;
+    color: green;
+}
+
+.btn-icons.streaming {
+    margin: 0 10px;
+    color: red;
+}
+
+.two .post-btn {
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: #010023;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.two .post-btn:hover {
+    background-color: #313045;
+}
+}
